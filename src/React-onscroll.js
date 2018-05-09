@@ -1,5 +1,4 @@
 import React from "react";
-import ExecutionEnvironment from "exenv";
 import EventListener, { withOptions } from "react-event-listener";
 
 export default class ReactOnScroll extends React.Component {
