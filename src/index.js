@@ -2,10 +2,13 @@ import React from "react";
 import EventListener, { withOptions } from "react-event-listener";
 
 export default class ReactOnScroll extends React.Component {
-  state = {
-    pixels: 0,
-    percent: 0
-  };
+  constructor() {
+    super()
+    this.state = {
+      pixels: 0,
+      percent: 0
+    };
+  }
 
   componentDidMount() {
     this.handleScroll();
