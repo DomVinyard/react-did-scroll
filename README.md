@@ -15,7 +15,7 @@ import DidScroll from "react-did-scroll";
   <DidScroll>
     {({pixels, percent}) => (
       <div style={styles}>
-        <h2 style={{ position: "fixed", top: 0 }}>pixels: {pixels}, percent: {percent}</h2>
+        <h2 style={{ position: "fixed" }}>pixels: {pixels}, percent: {percent}</h2>
       </div>
     )}
   </DidScroll>
