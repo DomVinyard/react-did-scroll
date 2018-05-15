@@ -16,7 +16,11 @@ import DidScroll from "react-did-scroll";
 ```
   <DidScroll>
     {({pixels, percent}) => (
-      <div>pixels: {pixels}, percent: {percent}</div>
+      <div>
+        <div>pixels: {pixels}, percent: {percent}</div>
+        {(percent < 50) && <div>Top half of page!</div>}
+        {(percent >= 50) && <div>Bottom half of page!</div>}
+      </div>
     )}
   </DidScroll>
  ```
