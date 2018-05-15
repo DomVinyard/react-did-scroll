@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/react-did-scroll.svg)](https://badge.fury.io/js/react-did-scroll)
+
 # react-did-scroll
 Monitor for scroll events in React
 
