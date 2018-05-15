@@ -1,11 +1,9 @@
 [![npm version](https://badge.fury.io/js/react-did-scroll.svg)](https://badge.fury.io/js/react-did-scroll)
 
 # react-did-scroll
-Monitor for scroll events in React
+Monitor for scroll events in React and report the window scroll position.
 
 [![Edit k3x809zlv3](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/k3x809zlv3?hidenavigation=1&view=editor)
-
-Captures the window scroll position.
 
 ## Import
 
