@@ -3,8 +3,6 @@
 # react-did-scroll
 Monitor for scroll events in React and report the window scroll position.
 
-[![Edit k3x809zlv3](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/k3x809zlv3?hidenavigation=1&view=editor)
-
 ## Import
 
 ```
